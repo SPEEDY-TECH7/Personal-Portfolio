@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ilanthiraiyan A — Full-Stack Developer &amp; Video Editor</title>
+<meta name="description" content="Portfolio of Ilanthiraiyan A — MERN Stack Developer and Video Editor based in Tamil Nadu, India.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Signature element: scroll timeline / scrubber nav -->
+<nav class="scrubber" id="scrubber" aria-label="Section navigation">
+  <div class="scrubber__track">
+    <div class="scrubber__playhead" id="playhead"></div>
+  </div>
+  <ol class="scrubber__ticks">
+    <li><button data-target="hero" class="tick is-active"><span class="tick__code">00:00</span><span class="tick__label">Intro</span></button></li>
+    <li><button data-target="about" class="tick"><span class="tick__code">00:01</span><span class="tick__label">About</span></button></li>
+    <li><button data-target="skills" class="tick"><span class="tick__code">00:02</span><span class="tick__label">Skills</span></button></li>
+    <li><button data-target="experience" class="tick"><span class="tick__code">00:03</span><span class="tick__label">Experience</span></button></li>
+    <li><button data-target="projects" class="tick"><span class="tick__code">00:04</span><span class="tick__label">Projects</span></button></li>
+    <li><button data-target="contact" class="tick"><span class="tick__code">00:05</span><span class="tick__label">Contact</span></button></li>
+  </ol>
+</nav>
+
+<main>
+
+  <!-- HERO -->
+  <section class="section hero" id="hero">
+    <div class="hero__grid">
+      <div class="hero__copy">
+        <p class="eyebrow"><span class="eyebrow__dot"></span>Coimbatore, Tamil Nadu, India</p>
+        <h1 class="hero__title">
+          Ilanthiraiyan A
+        </h1>
+        <p class="hero__role">Full‑Stack Developer <span class="hero__amp">&amp;</span> Video Editor</p>
+        <p class="hero__desc">I build secure, scalable web applications with the MERN stack, then cut the story of the product together the same way I'd cut a film — with rhythm, clarity, and intent.</p>
+        <div class="hero__cta">
+          <a href="#projects" class="btn btn--primary">View projects</a>
+          <a href="#contact" class="btn btn--ghost">Get in touch</a>
+        </div>
+        <div class="hero__links">
+          <a href="https://github.com/SPEEDY-TECH7" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/ilanthiraiyan" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+
+      <div class="hero__panel" aria-hidden="true">
+        <div class="terminal">
+          <div class="terminal__bar">
+            <span class="terminal__dot terminal__dot--r"></span>
+            <span class="terminal__dot terminal__dot--y"></span>
+            <span class="terminal__dot terminal__dot--g"></span>
+            <span class="terminal__file">about.js</span>
+          </div>
+          <pre class="terminal__body"><code><span class="tok-key">const</span> <span class="tok-var">developer</span> = {
+  <span class="tok-prop">name</span>: <span class="tok-str">"Ilanthiraiyan A"</span>,
+  <span class="tok-prop">stack</span>: [<span class="tok-str">"React"</span>, <span class="tok-str">"Node"</span>, <span class="tok-str">"Express"</span>, <span class="tok-str">"MongoDB"</span>],
+  <span class="tok-prop">alsoEdits</span>: <span class="tok-bool">true</span>,
+  <span class="tok-prop">status</span>: <span class="tok-str">"open to work"</span>,
+<span id="typedLine">};</span><span class="cursor">&#8203;</span></code></pre>
+        </div>
+        <div class="scanline"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="section__head">
+      <p class="section__eyebrow">00:01 — About</p>
+      <h2 class="section__title">The short cut</h2>
+    </div>
+    <div class="about__grid">
+      <p class="about__lead">
+        I'm a MERN stack developer who translates requirements into robust, user‑focused technical solutions — with an eye for UI/UX that comes from years of thinking in frames, not just functions. Whether I'm architecting a REST API or trimming a timeline, the goal is the same: cut the noise, keep the signal.
+      </p>
+      <ul class="factlist">
+        <li><span class="factlist__k">Education</span><span class="factlist__v">B.E. Computer Science &amp; Engineering<br>Tamilnadu College of Engineering · 2022–2026</span></li>
+        <li><span class="factlist__k">Languages</span><span class="factlist__v">Tamil (Native) · English (Proficient)</span></li>
+        <li><span class="factlist__k">Focus</span><span class="factlist__v">Web Development · UI/UX · Video Editing</span></li>
+        <li><span class="factlist__k">Workshops</span><span class="factlist__v">AR/VR &amp; Filmmaking · Multimedia for college events</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section skills" id="skills">
+    <div class="section__head">
+      <p class="section__eyebrow">00:02 — Skills</p>
+      <h2 class="section__title">Toolkit</h2>
+    </div>
+    <div class="skills__grid">
+      <div class="skillcard">
+        <h3 class="skillcard__title">Frontend</h3>
+        <div class="chiplist">
+          <span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">JavaScript (ES6+)</span><span class="chip">React.js</span>
+        </div>
+      </div>
+      <div class="skillcard">
+        <h3 class="skillcard__title">Backend</h3>
+        <div class="chiplist">
+          <span class="chip">Node.js</span><span class="chip">Express.js</span>
+        </div>
+      </div>
+      <div class="skillcard">
+        <h3 class="skillcard__title">Database</h3>
+        <div class="chiplist">
+          <span class="chip">MongoDB</span><span class="chip">MySQL</span>
+        </div>
+      </div>
+      <div class="skillcard">
+        <h3 class="skillcard__title">Tools</h3>
+        <div class="chiplist">
+          <span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">VS Code</span><span class="chip">Canva</span>
+        </div>
+      </div>
+      <div class="skillcard skillcard--wide">
+        <h3 class="skillcard__title">Additional</h3>
+        <div class="chiplist">
+          <span class="chip">Responsive Web Design</span><span class="chip">UI/UX Design</span><span class="chip">Video Editing</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section experience" id="experience">
+    <div class="section__head">
+      <p class="section__eyebrow">00:03 — Experience</p>
+      <h2 class="section__title">Timeline</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline__item">
+        <div class="timeline__marker"><span>00:03:01</span></div>
+        <div class="timeline__card">
+          <h3 class="timeline__role">Full Stack Developer Intern</h3>
+          <p class="timeline__org">CodeAlpha</p>
+          <ul class="timeline__points">
+            <li>Built responsive web apps using the MERN stack following agile principles.</li>
+            <li>Delivered production‑ready components, improving performance and UI consistency.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="timeline__item">
+        <div class="timeline__marker"><span>00:03:02</span></div>
+        <div class="timeline__card">
+          <h3 class="timeline__role">AI Intern</h3>
+          <p class="timeline__org">ETS Academy</p>
+          <ul class="timeline__points">
+            <li>Assisted in AI model creation and dataset processing for practical deployment.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section projects" id="projects">
+    <div class="section__head">
+      <p class="section__eyebrow">00:04 — Projects</p>
+      <h2 class="section__title">Selected work</h2>
+    </div>
+    <div class="projects__grid">
+
+      <article class="projectcard">
+        <div class="projectcard__head">
+          <span class="projectcard__tag">MERN STACK</span>
+        </div>
+        <h3 class="projectcard__title">E‑Commerce Web App</h3>
+        <p class="projectcard__desc">A full‑stack shopping platform with JWT authentication, a product catalog, and order management, backed by RESTful APIs for seamless frontend–backend communication.</p>
+        <div class="chiplist chiplist--mono">
+          <span class="chip chip--mono">React</span><span class="chip chip--mono">Node</span><span class="chip chip--mono">Express</span><span class="chip chip--mono">MongoDB</span><span class="chip chip--mono">JWT</span>
+        </div>
+      </article>
+
+      <article class="projectcard">
+        <div class="projectcard__head">
+          <span class="projectcard__tag">MERN STACK</span>
+        </div>
+        <h3 class="projectcard__title">Social Media App</h3>
+        <p class="projectcard__desc">A social platform with profiles, posts, comments, and real‑time features, built on a backend architecture optimized for scalability and fast performance.</p>
+        <div class="chiplist chiplist--mono">
+          <span class="chip chip--mono">React</span><span class="chip chip--mono">Node</span><span class="chip chip--mono">Express</span><span class="chip chip--mono">MongoDB</span><span class="chip chip--mono">Sockets</span>
+        </div>
+      </article>
+
+      <article class="projectcard">
+        <div class="projectcard__head">
+          <span class="projectcard__tag">FRONTEND</span>
+        </div>
+        <h3 class="projectcard__title">Portfolio Website</h3>
+        <p class="projectcard__desc">A responsive personal portfolio designed and deployed to showcase key projects, with attention to layout, hierarchy, and UI polish.</p>
+        <div class="chiplist chiplist--mono">
+          <span class="chip chip--mono">HTML</span><span class="chip chip--mono">CSS</span><span class="chip chip--mono">JavaScript</span>
+        </div>
+      </article>
+
+    </div>
+    <p class="projects__more">More repositories and activity on <a href="https://github.com/SPEEDY-TECH7" target="_blank" rel="noopener">GitHub ↗</a></p>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="contact__panel">
+      <p class="section__eyebrow section__eyebrow--light">00:05 — Contact</p>
+      <h2 class="contact__title">Let's cut something together</h2>
+      <p class="contact__desc">Open to full‑stack roles, freelance builds, and video projects. Reach out — I reply fast.</p>
+      <div class="contact__grid">
+        <a class="contact__item" href="mailto:ilanthiraiyan007@gmail.com">
+          <span class="contact__k">Email</span>
+          <span class="contact__v">ilanthiraiyan007@gmail.com</span>
+        </a>
+        <a class="contact__item" href="tel:+919629912725">
+          <span class="contact__k">Phone</span>
+          <span class="contact__v">+91 96299 12725</span>
+        </a>
+        <a class="contact__item" href="https://www.linkedin.com/in/ilanthiraiyan" target="_blank" rel="noopener">
+          <span class="contact__k">LinkedIn</span>
+          <span class="contact__v">/in/ilanthiraiyan ↗</span>
+        </a>
+        <a class="contact__item" href="https://github.com/SPEEDY-TECH7" target="_blank" rel="noopener">
+          <span class="contact__k">GitHub</span>
+          <span class="contact__v">/SPEEDY-TECH7 ↗</span>
+        </a>
+      </div>
+    </div>
+    <footer class="footer">
+      <p>© <span id="year"></span> Ilanthiraiyan A. Built with HTML, CSS &amp; JavaScript.</p>
+    </footer>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
